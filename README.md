@@ -1,5 +1,7 @@
 # Frontend Mentor - QR code component
 
+https://dedezera.github.io/QR-Code-Component-/
+
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
