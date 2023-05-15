@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--LightGray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container {
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.055);
+    background-color: var(--White);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img {
+    width: 270px;
+    height: 270px;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: var(--DarkBlue);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+P,
+.attribution {
+    color: var(--GrayishBlue);
+    font-size: .9rem;
+}
+
+.attribution {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.attribution a {
+    text-decoration: none;
+}
