@@ -57,6 +57,11 @@ h1 {
     font-weight: 900;
 }
 
+footer {
+    position: absolute;
+    bottom: 15px;
+}
+
 P,
 .attribution {
     color: var(--GrayishBlue);
@@ -64,8 +69,8 @@ P,
 }
 
 .attribution {
-    padding-top: 15px;
-    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
 }
 
 .attribution a {
